@@ -82,7 +82,7 @@ class MainPageAdapter: SCDLatticePageAdapter {
 		return temp
 	}
 	
-	struct NASA: Codable
+struct NASA: Codable
 {
 	var photos: [Photos]
 }
